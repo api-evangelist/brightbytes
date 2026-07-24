@@ -1,0 +1,82 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.edsurge.com/news/2022-10-11-google-discreetly-acquires-edtech-analytics-company-brightbytes
+company_status: acquired
+operating: false
+summary: >-
+  BrightBytes was a San Francisco K-12 education data and analytics company (founded 2012 by
+  Rob Mancabelli), known for the Clarity analytics platform and the DataSense data-integration
+  platform. The company no longer operates independently: DataSense was sold to Microsoft in
+  February 2019, and the remaining company was acquired by Google in 2022. As of this probe the
+  corporate website www.brightbytes.net returns an expired-Squarespace placeholder, and no
+  developer, documentation, API, status or portal subdomain resolves.
+events:
+- date: '2019-02'
+  event: DataSense data-integration platform and team acquired by Microsoft
+  source: https://www.geekwire.com/2019/microsoft-acquires-datasense-data-analytics-platform-schools-edtech-company-brightbytes/
+- date: '2022-10'
+  event: BrightBytes (Clarity platform) acquired by Google; reported publicly October 2022
+  source: https://www.edsurge.com/news/2022-10-11-google-discreetly-acquires-edtech-analytics-company-brightbytes
+- date: '2026-07-20'
+  event: >-
+    Probe of www.brightbytes.net returns HTTP 404 with a Squarespace "Website Expired"
+    placeholder page; no developer surface remains.
+  source: https://www.brightbytes.net
+versioning: null
+deprecation: null
+sla: null
+status_page: null
+deprecated_operations: []
+probe:
+  date: '2026-07-20'
+  website:
+    url: https://www.brightbytes.net
+    status: 404
+    note: Squarespace "Website Expired" placeholder
+  well_known:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  subdomains:
+  - host: app.brightbytes.net
+    dns: none
+  - host: developer.brightbytes.net
+    dns: none
+  - host: docs.brightbytes.net
+    dns: none
+  - host: api.brightbytes.net
+    dns: none
+  - host: help.brightbytes.net
+    dns: none
+  - host: portal.brightbytes.net
+    dns: none
+  - host: status.brightbytes.net
+    dns: none
+  - host: support.brightbytes.net
+    dns: CNAME brightbytes.zendesk.com
+    https: unreachable
+  - host: clarity.brightbytes.net
+    dns: CNAME clarity-production-paas.bbinternal.net
+    https: unreachable
+  registries:
+  - registry: npm
+    query: brightbytes
+    first_party_packages: 0
+  - registry: pypi
+    query: brightbytes
+    status: 404
+  github_org: none found (github.com/brightbytes not a public org)
+notes: >-
+  No API, OpenAPI, developer portal, SDK, or event surface exists to harvest. Downstream
+  enrichment artifacts (openapi/, packages/, mcp/, skills/, conventions/, errors/, scopes/,
+  authentication/, sandbox/, changelog/, cli/, components/, data-model/, asyncapi/) are
+  intentionally absent rather than fabricated.

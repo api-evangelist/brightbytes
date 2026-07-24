@@ -1,21 +1,49 @@
 aid: brightbytes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brightbytes.png
 name: BrightBytes
-description: 'BrightBytes is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: cloud. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  BrightBytes was a San Francisco-based K-12 education data and analytics company founded in 2012
+  by Rob Mancabelli, best known for Clarity, a decision-support and analytics platform used by
+  schools and districts to connect technology spending and classroom use to student learning
+  outcomes, and for DataSense, a data-integration platform that captured, cleaned, and synced
+  student data between disparate school systems. The company sold DataSense and its team to
+  Microsoft in February 2019 and was itself acquired by Google in 2022. BrightBytes no longer
+  operates independently: as of July 2026 www.brightbytes.net returns an expired-site placeholder
+  and no developer portal, documentation, API, SDK, or status surface remains. This profile is
+  retained as a historical company record with no API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/brightbytes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: google
+x-acquired-date: '2022'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cloud
+- Education
+- Analytics
+- Data
+- K-12
+- EdTech
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.brightbytes.net
+- type: DomainSecurity
+  url: security/brightbytes-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/brightbytes-lifecycle.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/brightbytes
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/brightbytes
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

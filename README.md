@@ -64,14 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BrightBytes was a San Francisco-based K-12 education data and analytics company founded in 2012 by Rob Mancabelli, best known for **Clarity**, a decision-support and analytics platform used by schools and districts to connect technology spending and classroom use to student learning outcomes, and for **DataSense**, a data-integration platform that captured, cleaned, and synced student data between disparate school systems.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-## Status: acquired — no API surface
+BrightBytes was a San Francisco-based K-12 education data and analytics company founded in 2012 by Rob Mancabelli, best known for Clarity, a decision-support and analytics platform used by schools and districts to connect technology spending and classroom use to student learning outcomes, and for DataSense, a data-integration platform that captured, cleaned, and synced student data between disparate school systems. The company sold DataSense and its team to Microsoft in February 2019 and was itself acquired by Google in 2022. BrightBytes no longer operates independently: as of July 2026 www.brightbytes.net returns an expired-site placeholder and no developer portal, documentation, API, SDK, or status surface remains. This profile is retained as a historical company record with no API surface to catalog.
 
-- **Feb 2019** — DataSense platform and team [acquired by Microsoft](https://www.geekwire.com/2019/microsoft-acquires-datasense-data-analytics-platform-schools-edtech-company-brightbytes/).
-- **2022** — BrightBytes (Clarity) [acquired by Google](https://www.edsurge.com/news/2022-10-11-google-discreetly-acquires-edtech-analytics-company-brightbytes).
-- **Jul 2026** — `www.brightbytes.net` returns HTTP 404 with an expired-Squarespace placeholder. No developer, docs, API, portal, or status subdomain resolves. No first-party packages on npm or PyPI, no public GitHub organization.
+**Areas:** Company · Cloud · Education · Analytics · Data · K-12 · EdTech · Acquired
 
-This repo is retained as a historical company record. See `lifecycle/brightbytes-lifecycle.yml` for the full probe record and `security/brightbytes-domain-security.yml` for the domain posture (the domain itself is still registered and mail-active under Google).
+## BrightBytes on APIs.io (historical record)
 
-Backed by: bessemer-venture-partners
+Everything profiled for BrightBytes is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/brightbytes/](https://apis.io/providers/brightbytes/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Brightbytes Domain Security](https://apis.io/security/brightbytes/brightbytes-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.brightbytes.net)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BrightBytes: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/brightbytes/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
